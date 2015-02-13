@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Subtractor_5">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2013-2-4T7:20:52</timestamp>
+    <pin polarity="Input" x="-16" y="32" name="a(4:0)"/>
+    <pin polarity="Input" x="-16" y="64" name="b(4:0)"/>
+    <pin polarity="Output" x="160" y="64" name="borrow"/>
+    <pin polarity="Output" x="160" y="32" name="diff(4:0)"/>
+    <graph>
+        <rect style="linewidth:W" width="92" x="28" y="16" height="64"/>
+        <rect width="44" x="-16" y="56" height="16"/>
+        <line x2="-16" y1="64" y2="64" x1="28"/>
+        <rect width="44" x="-16" y="24" height="16"/>
+        <line x2="-16" y1="32" y2="32" x1="28"/>
+        <rect width="40" x="120" y="24" height="16"/>
+        <line x2="160" y1="32" y2="32" x1="120"/>
+        <line x2="160" y1="64" y2="64" x1="120"/>
+        <attrtext style="fontsize:20;fontname:Arial" attrname="SymbolName" x="28" y="0" type="symbol"/>
+        <text style="fontsize:44;fontname:Arial" x="40" y="44">-</text>
+        <attrtext attrname="PinName" x="68" y="64" type="pin borrow"/>
+        <text x="92" y="32">diff</text>
+        <text style="fontsize:20;fontname:Arial" x="0" y="100">diff = top - bottom</text>
+    </graph>
+</symbol>

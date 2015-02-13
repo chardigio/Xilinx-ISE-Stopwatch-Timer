@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/local/PODS/cdigiov1/Downloads/Final_Project_Thurs_Night/Final_Project.ncd
+OUTFILE=/home/local/PODS/cdigiov1/Downloads/Final_Project_Thurs_Night/Final_Project.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5vq100
+WORKINGDIR=/home/local/PODS/cdigiov1/Downloads/Final_Project_Thurs_Night
+LICENSE=ISE
+USER_INFO=176001380_208276972_210576940_222
